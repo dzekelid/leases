@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Leases
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
@@ -41,6 +41,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/keywordsleaseskeyword-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/keywordsleaseskeyword-get-openapi.md
+- name: CallFire - Update a lease
+  x-api-slug: keywordsleaseskeyword-put
+  description: Updates a keyword lease. Turns the autoRenew on/off.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/keywordsleaseskeyword-put-openapi.md
 - name: CallFire - Find leases
   x-api-slug: numbersleases-get
   description: Searches for all numbers leased by account user. This API is useful
@@ -86,6 +98,47 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/numbersleasesconfigsnumber-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/numbersleasesconfigsnumber-get-openapi.md
+- name: CallFire - Update a lease config
+  x-api-slug: numbersleasesconfigsnumber-put
+  description: Updates a phone number lease configuration. Use this API endpoint to
+    add an Inbound IVR or Call Tracking feature to a CallFire phone number. Call tracking
+    configuration allows you to track the incoming calls, to analyze and to respond
+    customers using sms or voice replies. For more information see [call tracking
+    page](https://www.callfire.com/products/call-tracking)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/numbersleasesconfigsnumber-put-openapi.md
+- name: CallFire - Find a specific lease
+  x-api-slug: numbersleasesnumber-get
+  description: Returns a single NumberLease instance for a given number
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/numbersleasesnumber-get-openapi.md
+- name: CallFire - Update a lease
+  x-api-slug: numbersleasesnumber-put
+  description: Updates a number lease instance. Ability to turn on/off autoRenew and
+    toggle call/text features for a particular number
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/leases/master/_listings/callfire/numbersleasesnumber-put-openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
